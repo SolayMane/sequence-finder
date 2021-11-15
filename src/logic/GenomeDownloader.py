@@ -8,7 +8,7 @@ import ncbi_genome_download as ngd
 
 class GenomeDownloader:
     def __init__(self, queue, output, genus, species, id):
-        log = queue.put
+        log = queue
         log('Start downloading genomes')
 
         # Make folder for algorithm
